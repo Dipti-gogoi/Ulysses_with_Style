@@ -1,0 +1,170 @@
+
+    /*  DIPTI GOGOI 
+        Ulyssess, But With Style
+        03/05/2019
+        Tech1101 */
+*{
+    box-sizing:border-box;
+}
+
+html,body{
+        margin:0;
+        padding: 0px;
+        height:100%;
+}
+
+.main-navigation > nav > ul > li{
+        float:left;
+        display: inline;
+        margin:9px;
+        padding:2px;
+}
+
+.main-navigation > nav > ul > li > a{
+        color: rgba(251,252,252,0.8);
+        text-transform: uppercase;
+        font-size: 10px;
+        text-decoration: none;
+}
+
+.hero-and-title{
+        background-image:url(images/jeremy-bishop-199327-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        margin-top:-80px;
+        height: 400px;
+}
+
+.hero-and-title h1 {
+        color: rgba(255,255,255,0.7);
+        font-size: 110px;
+        font-style:italic;
+        margin-right: 30px;
+        padding-top: 120px;
+        text-align: center;
+}
+
+.hero-and-title h2{
+        color: rgba(251,252,252,0.8);
+        text-align: center;
+        font-size:17px;
+        margin-top:120px;
+        text-align: center;    
+}
+
+.inset{
+        float:right;
+        width:40%;
+        background-color: #336699;
+        color:white;
+        text-align: left;
+        padding-bottom: 250px;
+}
+
+.inset > section > h2 {
+        font-size:20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 30px;
+        padding-left: 20px;
+        color:#336699;
+        background-color: black;;
+        position: static;
+
+}
+
+.inset > section > h3 > cite {
+        display: block;
+        font-size: 11px;
+        margin-right:40px;
+        color: rgba(251,251,251,0.5);
+        text-align:right;
+}
+
+ a{
+        color: rgba(251,251,251,0.5);
+     
+}
+
+.inset > section > p {
+        padding-left: 30px;
+        padding-right:30px;
+        font-size:17px;
+        font-family: Trebuchet MS , Helvetica,;
+        line-height: 150%;
+}
+
+.inset > section > {
+        font-style:italic;
+}
+
+blockquote{
+        font-style: italic;
+        font-size: 26px;
+        text-align: center;
+        padding-right:26px;
+        padding-left:26x;
+        line-height:40px;
+        color: rgba(251,251,251,0.7);
+}
+
+.inset> section> cite{
+        float: right;
+        text-align: right;
+        margin-right:40px;
+        color: rgba(251,251,251,0.5);
+
+}
+
+.verses{
+        position:absolute;
+        line-height: 20px;
+        width: 100%;
+        padding: 0 5% 0 3%;
+        font-size: 18px;
+        line-height:150%;
+}
+
+.verse > h1::first-letter {
+      font-size: 54px;
+  
+}
+
+.verse> p {
+        padding-left: 20px;
+}
+
+.verses> div{
+        border-left: 2px solid #336699;
+        margin-top: 50px;
+}
+
+.verse > h1 {
+        font-style: italic;
+        display: inline-block;
+        padding: 20px;
+        margin:0;
+        color: white;
+        background-color: #336699;
+        font-size: 22px;
+}
+
+footer{
+        height: 70px;
+        float:right;
+        background-color: #181818;
+        position: relative;
+        height:100px;
+        margin-bottom: 200px;
+        width: 100%;
+        color: rgba(251,251,251,0.4);
+        font-size:10px;
+        text-align: center;
+        bottom:0px;
+        margin-bottom:0px;
+}
+
+footer > ul{
+        list-style-type: none;
+}
